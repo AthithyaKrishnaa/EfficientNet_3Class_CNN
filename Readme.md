@@ -168,7 +168,7 @@ requests>=2.28.0
 
 ```python
 # Run the complete pipeline
-jupyter notebook conformal_3class_ensemble.ipynb
+jupyter notebook EfficientNet_3Class_CNN.ipynb
 ```
 
 ### Step-by-Step Execution
