@@ -3,8 +3,7 @@
 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-FF6F00?style=flat&logo=tensorflow)](https://www.tensorflow.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/yourrepo/blob/main/conformal_3class_ensemble.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AthithyaKrishnaa/EfficientNet_3Class_CNN)
 
 > **High-reliability image classifier** combining EfficientNet ensemble, Test-Time Augmentation (TTA), and Conformal Prediction for calibrated uncertainty quantification in safety-critical applications.
 
