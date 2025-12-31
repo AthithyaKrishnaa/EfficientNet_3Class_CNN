@@ -10,20 +10,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Architecture](#-architecture)
-- [Results](#-results)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Methodology](#-methodology)
-- [Visualizations](#-visualizations)
-- [Citation](#-citation)
-
----
-
 ## 🔍 Overview
 
 This project implements a **production-grade 3-class image classifier** (Cat / Dog / Car) designed for scenarios requiring:
@@ -284,50 +270,21 @@ Original prediction
 The notebook generates 4 comprehensive figures:
 
 ### 1. Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
-*Annotated heatmap showing class-wise predictions with overall accuracy and MCC*
+<img width="807" height="788" alt="ensemble-confusion-matrix" src="https://github.com/user-attachments/assets/0fe867ba-5313-4655-a329-b7a8772bedeb" />
+
+*Image showing Ensemble Confusion Matrix*
 
 ### 2. Performance Metrics
-![Performance Metrics](images/performance_metrics.png)
+<img width="1583" height="1190" alt="performance-metrics" src="https://github.com/user-attachments/assets/d1e6c630-f34d-469b-ba1b-28341bef4b5c" />
 *Four subplots: (a) Per-class metrics, (b) Conformal coverage, (c) Set size distribution, (d) MCC comparison*
 
 ### 3. Error Analysis
-![Error Analysis](images/error_analysis.png)
-*Three subplots: (a) False negatives by class, (b) Confusion patterns, (c) Confidence distributions*
+
+*Three subplots: (a) Errors by Class, (b) Confusion patterns, (c) Confidence: Correct vs Wrong*
 
 ### 4. Sample Predictions
-![Sample Predictions](images/sample_predictions.png)
+<img width="1598" height="1019" alt="sample-predictions" src="https://github.com/user-attachments/assets/2774f64d-652e-489e-9ca8-86b1155b45f6" />
 *Visual grid showing: high/low confidence correct, wrong predictions, conformal ambiguous cases*
-
----
-
-## 📁 Project Structure
-
-```
-conformal-3class-ensemble/
-│
-├── conformal_3class_ensemble.ipynb   # Main notebook
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── LICENSE                            # MIT License
-│
-├── images/                            # Generated visualizations
-│   ├── confusion_matrix.png
-│   ├── performance_metrics.png
-│   ├── error_analysis.png
-│   └── sample_predictions.png
-│
-├── models/                            # Saved trained models
-│   ├── best_model_b0_1.keras
-│   ├── best_model_b0_2.keras
-│   └── best_model_b1.keras
-│
-└── data/                              # Downloaded datasets (auto-created)
-    ├── PetImages/
-    │   ├── Cat/
-    │   └── Dog/
-    └── CarImages/
-```
 
 ---
 
@@ -371,40 +328,7 @@ conformal-3class-ensemble/
 
 ---
 
-## 🤝 Contributing
-
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@misc{conformal3class2025,
-  author = {Your Name},
-  title = {Ultra-Optimized 3-Class Conformal Ensemble for Image Classification},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/yourusername/conformal-3class-ensemble}
-}
-```
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **EfficientNet**: Mingxing Tan and Quoc V. Le ([paper](https://arxiv.org/abs/1905.11946))
 - **Conformal Prediction**: Vovk et al. ([book](https://link.springer.com/book/10.1007/978-3-031-06649-8))
@@ -415,12 +339,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Your Name** - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
+**Mail** - athithyakrishnaam@email.com
 
-Project Link: [https://github.com/yourusername/conformal-3class-ensemble](https://github.com/yourusername/conformal-3class-ensemble)
+Project Link: [https://github.com/yourusername/EfficientNet_3Class_CNN](https://github.com/AthithyaKrishnaa/EfficientNet_3Class_CNN)
 
 ---
-
-<p align="center">
-  Made with ❤️ for reliable AI
-</p>
