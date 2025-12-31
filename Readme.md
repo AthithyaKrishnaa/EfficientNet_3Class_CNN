@@ -279,7 +279,7 @@ The notebook generates 4 comprehensive figures:
 *Four subplots: (a) Per-class metrics, (b) Conformal coverage, (c) Set size distribution, (d) MCC comparison*
 
 ### 3. Error Analysis
-
+<img width="1311" height="859" alt="error-analysis" src="https://github.com/user-attachments/assets/9b612924-eb81-4997-afdd-6e1e50c5941f" />
 *Three subplots: (a) Errors by Class, (b) Confusion patterns, (c) Confidence: Correct vs Wrong*
 
 ### 4. Sample Predictions
