@@ -1,4 +1,4 @@
-# 🎯 Ultra-Optimized 3-Class Conformal Ensemble
+# Optimized EfficientNet 3Class CNN Model
 ### Cat vs Dog vs Car Classification with 95%+ MCC Target
 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-FF6F00?style=flat&logo=tensorflow)](https://www.tensorflow.org/)
